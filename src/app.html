@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
-		<meta name="viewport" content="width=device-width" />
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
+    <link rel="alternate" type="application/atom+xml" href="/rss.xml" />
+    <meta name="viewport" content="width=device-width" />
 
-		<!-- Goat Counter: open-source, tracking-free analytics -->
-    <script data-goatcounter="https://devarsirawal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <!-- Goat Counter: open-source, tracking-free analytics -->
+    <script
+      data-goatcounter="https://devarsirawal.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
 
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover" class="h-full bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div
+      class="flex flex-col bg-paper dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 min-h-screen font-serif"
+    >
+      %sveltekit.body%
+    </div>
+  </body>
 </html>

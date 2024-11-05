@@ -5,14 +5,14 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts,md}'],
   darkMode: 'class',
   theme: {
-    extend: {
-      fontFamily: {
-        'sans': ['Inter', ...defaultTheme.fontFamily.sans],
-        'serif': ['"Crimson Pro"', ...defaultTheme.fontFamily.serif],
-        'monospace': ['"Fira Code"', ...defaultTheme.fontFamily.mono]
-      },
+    fontFamily: {
+      serif: ['Crimson Text', 'serif']
     },
+    extend: {
+      colors: {
+        paper: '#f6eee3',
+      }
+    }
   },
-  plugins: [],
-}
-
+  plugins: []
+};
