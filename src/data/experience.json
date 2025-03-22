@@ -1,0 +1,30 @@
+{
+    "experience": [
+        {
+            "dateStart": "March 2025",
+            "dateEnd": "Present",
+            "title": "Software Engineer",
+            "company": "Overland AI"
+        },
+        {
+            "dateStart": "February 2023",
+            "dateEnd": "February 2025",
+            "title": "Robotics Software Engineer",
+            "company": "Nauticus Robotics"
+        }
+    ],
+    "education": [
+        {
+            "dateStart": "January 2022",
+            "dateEnd": "December 2022",
+            "degree": "M.S. Computer Science",
+            "institution": "Georgia Institute of Technology"
+        },
+        {
+            "dateStart": "August 2018",
+            "dateEnd": "December 2021",
+            "degree": "B.S. Computer Science",
+            "institution": "Georgia Institute of Technology"
+        }
+    ]
+}

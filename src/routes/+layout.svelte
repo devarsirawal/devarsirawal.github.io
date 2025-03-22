@@ -10,7 +10,7 @@
 </svelte:head>
 
 <Header />
-<main class="flex flex-col flex-grow w-full mx-auto max-w-3xl">
+<main class="flex flex-col flex-grow w-full mx-auto max-w-3xl px-2">
   <slot />
 </main>
 <Footer />
